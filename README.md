@@ -4,6 +4,7 @@
 
 You can schedule this to run in Cron or the like  
 Raname .env.sample to .env and add the relevant details (Your takealot API key will go in here).  
+The start date can be configured in .env. It will pull up to today's date.  
 Right now it supports MySQL only.
 
 
