@@ -1,0 +1,19 @@
+{
+  "name": "takealot_sales_puller",
+  "version": "1.0.0",
+  "description": "To pull your takealot sales into a MySQL DB, and dedupe it",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "necrolingus",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.4"
+  }
+}
