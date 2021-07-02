@@ -78,14 +78,13 @@ async function getSales() {
 	
 }
  
-  
 async function letsStart (){
 	//create the DB and table
 	const initializeDb = await initDB.createDb(dbConfig.dBDialect);
 	const sales = await getSales();
 	
 	if (initializeDb){
-		console.log(initializeDb)
+		console.log(initializeDb) //an error occurred 
 	} else {
 		if ('Error' in sales){
 			console.log('You had an error: ' + sales)
